@@ -1,0 +1,416 @@
+@media (max-width:1066px){
+
+  
+   .menu-btn{
+      display: block;
+      z-index: 999;
+   }
+
+
+   .menu--bar .menu{
+       position: fixed;
+       height: 100vh;
+       width: 100%;
+       left: 100%;
+       top: 0;
+       background:black;
+       text-align: center;
+       padding-top: 70px;
+       transition: all 0.3s ease;
+       z-index: 999;
+   }
+   .menu--bar .menu li{
+       display:block;
+
+   }
+   .menu--bar .menu.active{
+       left: 0;
+   }
+
+   .menu--bar .menu li a{
+       display: inline-block;
+       margin: 15px 0;
+       font-size: 15px;
+       border:none;
+       background: none;
+   }
+   .menu--bar .menu li:nth-child(1) a{
+	background: none;
+
+   }
+   .menu--bar .menu li a:hover{
+	color: #ffc61a;
+    background: none;    
+    }
+
+
+    .blog{
+        margin-top: 500px;
+    }
+    .blog-row{
+        padding-left: 30px;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+
+
+
+}
+@media (max-width:991px){
+    .max-width{
+       padding: 0px 50px;
+   }
+   .menu--bar-logo img{
+        width: 120px;
+        height: auto;
+       
+        margin-left:-20px;
+    }
+
+
+
+
+
+
+
+
+
+    
+    .home-content h1:nth-child(1){
+        color:  #ffc61a;
+        font-weight:1000;
+        font-size: 25px;
+    }
+    .home-content h1:nth-child(2){
+        color: white;
+        font-weight:1000;
+        font-size: 50px;
+        
+    }
+    .home-content h1:nth-child(3){
+        color: white;
+        font-weight:999;
+        font-size: 15px;
+        letter-spacing: 13px;
+        padding-bottom: 68px;
+        
+    }
+    .home-content img{
+        height: 350px;
+        width: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .about{
+
+        height: 750px;
+
+    }
+    .about-content{
+        padding-left:50px;
+    
+        padding-top: 50px;
+        box-sizing: border-box;
+    }   
+    .about-content p:nth-child(1){
+        font-size: 30px;
+
+    }
+    .about-content p:nth-child(2){
+        font-size: 38px;
+        line-height: 50px;
+        padding-right:0px;
+    }
+    .about-content p:nth-child(3){
+        padding-right:0px;
+
+        font-size:14px;
+        margin-bottom: 0px;
+        
+    }
+    .about-content .form .box{
+        width: 325px;
+        height: 372px;
+        background: white;
+    }
+    .about-content .form .box form header{
+        font-size: 20px;
+
+        padding-left: 10px;
+
+    }
+    .about-content .form .box form header span{
+        color:  #ffc61a;
+    }
+    .field{
+    
+        width: 35%;
+        border: none;
+        border-bottom: 1px solid gray;
+        padding-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: black;
+        
+    }
+    .field-1{
+        width:85%;
+        border: none;
+        border-bottom: 1px solid gray;
+        padding-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: black;
+    }
+    .btn-2{
+        width: 140px;
+        margin-left: 20px;
+        height: auto;
+        margin-top:30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    
+    }
+
+
+
+
+        
+    .blog{
+     margin-top: 500px;
+    }
+    .blog-row button{
+     
+        margin-left:0px;
+        float: left;
+    }
+
+    
+    
+
+
+
+
+   
+}
+@media (max-width:790px){
+          
+    .blog{
+        margin-top: 1000px;
+        height: 800px;
+       }
+}
+
+
+
+@media (max-width:600px){
+    .home-content h1:nth-child(1){
+        color:  #ffc61a;
+        font-weight:900;
+        font-size: 20px;
+    }
+    .home-content h1:nth-child(2){
+        color: white;
+        font-weight:1000;
+        font-size: 35px;
+        
+    }
+    .home-content h1:nth-child(3){
+        color: white;
+        font-weight:999;
+        font-size: 14px;
+        letter-spacing: 7px;
+        padding-bottom: 68px;
+        
+    }
+    .home-content img{
+        height: 200px;
+        width: auto;
+    }
+
+
+
+
+
+    .about{
+        height: 800px;
+       
+    }
+    .about-content{
+        padding-left:0px;
+    
+        padding-top: 50px;
+        padding-bottom: 200px;
+        box-sizing: border-box;
+    }   
+    .about-content p:nth-child(1){
+        font-size: 24px;
+       margin-top: -50px;
+    }
+    .about-content p:nth-child(2){
+        font-size: 32px;
+        line-height: 40px;
+        padding-right:0px;
+    }
+    .about-content p:nth-child(3){
+        padding-right:0px;
+
+        font-size:13px;
+        margin-bottom: 0px;
+        
+    }
+    .about-content .form .box{
+        width: 325px;
+        height: 372px;
+        background: white;
+        padding-bottom: 50px;
+    }
+    .about-content .form .box form header{
+        font-size: 20px;
+
+        padding-left: 10px;
+
+    }
+    .about-content .form .box form header span{
+        color:  #ffc61a;
+    }
+    .field{
+    
+        width: 35%;
+        border: none;
+        border-bottom: 1px solid gray;
+        padding-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: black;
+        
+    }
+    .field-1{
+        width:85%;
+        border: none;
+        border-bottom: 1px solid gray;
+        padding-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: black;
+    }
+    .btn-2{
+        margin-top:30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    
+    }
+    .blog h1{
+        font-size: 36px;
+        padding-bottom: 40px;
+        box-sizing: border-box;
+        
+    }
+    .blog-row{
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    .blog-row img{
+        padding-bottom:50px;
+        width: 90%;
+    }
+
+
+
+
+
+
+
+
+    .download h2{
+        font-size:25px;
+    }
+    .download h1{
+        font-size: 35px;
+    }
+    
+    .downtext{
+        width: 100%;
+        float: left;
+        padding-left:5px;
+        box-sizing: border-box;
+        padding-right:0px;
+    
+    }
+    .downtext img{
+        width: 100px;
+    
+    }
+    .downimg{
+        width: 100%;
+    }
+    .downimg img{
+        width: 300px;
+        height: auto;
+        float: right;
+        margin-top: 30px;
+    }
+
+
+
+    .clients{
+      margin-top: 125px;
+      height: 810px;
+        
+    }
+    .review1 img
+    {
+        width: 350px;
+        padding: 3%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .footer{
+        height: auto;
+    }
+    .footer .foot{
+       
+        font-size: 12px;
+    }
+    .footer1 div{
+        height: 6px;
+        width: 300px;
+
+    }
+
+    .footer1{
+        width:300px;
+        margin: 3%;
+    }
+    
+
+
+
+
+}
+
+  
